@@ -22,3 +22,12 @@ app.get('/notes', (req, res) => {
 app.get('/api/notes', (req, res) => {
     res.json(noteS)
 });
+
+app.post('/api/notes', (req, res) => {
+    let fPath = path.join(__dirname, 'db/db.json');
+    noteN = req.body;
+
+    noteN.id = uuidv4();
+
+    noteS.push(noteN);
+})
