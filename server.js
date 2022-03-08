@@ -30,4 +30,14 @@ app.post('/api/notes', (req, res) => {
     noteN.id = uuidv4();
 
     noteS.push(noteN);
-})
+
+    fs.writeFile(fPath. JSON.stringify(noteS), (err) => {
+        if (err) {
+            return console.log(err);
+        } else {
+            console.log('Saved');
+        }
+    })
+
+    res.json(noteN);
+});
