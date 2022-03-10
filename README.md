@@ -1,6 +1,7 @@
 # Express_Note_Taker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notetakerexpressv1.herokuapp.com/)
 
 [GitHub Repo](https://github.com/AndyAn7/Express-Note-Taker)
