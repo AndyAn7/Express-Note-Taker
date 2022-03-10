@@ -5,7 +5,6 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://notetakerexpressv1.herokuapp.com/)
 
 [GitHub Repo](https://github.com/AndyAn7/Express-Note-Taker)
-# Express_Note_Taker
 ## Table Of Contents
 - [Description](#description)
 
