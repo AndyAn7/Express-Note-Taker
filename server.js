@@ -63,9 +63,10 @@ app.post('/api/notes', (req, res) => {
     // res.json(noteN);
 });
 
-app.delete('/notes/:id', function (req, res) {
+app.delete('/api/notes/:id', function (req, res) {
     let id = req.params.id.toString();
 
+    const noteS = JSON.parse(fs.readFileSync('./db/db.json'));
     for (i = 0; i < noteS.length; i++) {
         if (noteS[i].id == id) {
             res.send(noteS[i]);
